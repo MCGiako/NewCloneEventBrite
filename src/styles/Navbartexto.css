@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar__items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__items ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar__items ul li:first-child {
+    margin-left: 0;
+}
+
+.navbar__items ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__brand {
+    font-size: 1.5rem;
+}
+
+.navbar__items {
+    text-align: right; /* Alinea el texto a la derecha */
+}

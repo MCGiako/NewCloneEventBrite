@@ -7,7 +7,8 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
+import Navbar1, { Navbar } from "./component/navbar";
+import Cardfirstimage from "./component/CardFirstImage.js"
 import { Footer } from "./component/footer";
 
 //create your first component
@@ -20,7 +21,8 @@ const Layout = () => {
 		<div>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
-					<Navbar />
+					<Navbar1 />
+					<Cardfirstimage />
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/demo" element={<Demo />} />
